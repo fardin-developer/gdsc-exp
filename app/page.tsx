@@ -1,12 +1,11 @@
-"use client";
-
-
-import Teams from "@/components/Teams/teams";
+import Content from "@/components/contents/Content";
+import Event from "@/components/events/Event"
 
 export default function Home() {
   return (
-    <>
-      <Teams />
-    </>
+    <main>
+      <Content />
+      <Event />
+    </main>
   );
 }
